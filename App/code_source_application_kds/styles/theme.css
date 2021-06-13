@@ -1,0 +1,197 @@
+body {
+  background-color: #eee;
+}
+
+label.radio {
+  cursor: pointer;
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+label.radio span {
+  padding: 4px 0px;
+  border: 1px solid red;
+  display: inline-block;
+  color: red;
+  width: 100px;
+  text-align: center;
+  border-radius: 3px;
+  margin-top: 7px;
+  text-transform: uppercase;
+}
+
+label.radio input:checked + span {
+  border-color: red;
+  background-color: red;
+  color: #fff;
+}
+
+.ans {
+  margin-left: 36px !important;
+}
+
+.btn:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn:active {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.navBar {
+  height: 100px;
+  padding: 10px;
+  background-color: #00ac8c !important;
+
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100% !important;
+}
+
+.appHeared {
+  height: 100px;
+  padding: 10px;
+  background-color: #00ac8c;
+
+  z-index: 10;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100% !important;
+}
+.appBody {
+  /* margin-top: 135px !important; */
+  margin-top: 110px !important;
+}
+#section_title {
+  height: 90%;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.appTitre {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.headerLogo {
+  height: 100px;
+  margin-left: 80px;
+}
+
+#ensias {
+  width: 140px;
+}
+#master {
+  width: 200px;
+}
+
+.stepIndex {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: 600;
+}
+.active .stepIndex {
+  background-color: #0069cc;
+}
+
+.stepper {
+  list-style: none;
+}
+.stepper > .step {
+  display: inline-block;
+  margin-right: 120px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.stepper > .step.active {
+  color: #333333;
+}
+
+.variableInfo {
+  margin-top: 30px !important;
+  margin-bottom: 20px;
+}
+
+#questionTitle,
+.title {
+  color: #00ac8c;
+}
+
+.navTog {
+  color: #fff !important;
+  border: none !important;
+}
+
+.variableInfoIcon {
+  width: 50px;
+  min-height: 50px;
+  background: #00ac8c;
+  position: relative;
+  left: -35px;
+  top: -35px;
+  bottom: 0%;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.ths {
+  border: 3px solid #00ac8c !important;
+}
+.variableInfodetaill {
+  padding-left: 60px;
+}
+.variableInfo_desc {
+  line-height: 30px;
+}
+
+#userInput {
+  width: 150px;
+}
+
+#user_responce {
+  margin: 20px;
+  /* min-height: 220px; */
+}
+#user_responce .input-group {
+  width: 50%;
+}
+
+.step_container {
+  margin-bottom: 20px;
+  display: none !important;
+}
+.step_container.current {
+  display: block !important;
+}
+#resultLoading{
+  width: 10rem!important;
+  height: 10rem!important;
+}
+#onResponceReady{
+  display: none;
+}
+#decision{
+  margin-top: 30px;
+}

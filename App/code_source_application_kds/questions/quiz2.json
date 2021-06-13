@@ -1,0 +1,10 @@
+
+{
+    "questions":[
+        {"id_question":"Question 1", "question_content":"hqkjh kjhsh  suiu?","question_type":"discrete","modalite":["Année"],"desc":{"var_name":"Age 1","var_illustration":"./images/anemia.png","var_info":"Votre âge peut être un facteur de risque.Un facteur de risque est quelque chose qui augmente la possibilité d’avoir une maladie."}},
+        {"id_question":"Question 2", "question_content":"jdj kmldlkjlkj jkdjlj?","question_type":"discrete","modalite":["Année"],"desc":{"var_name":"Age 2","var_illustration":"./images/bacteria.png","var_info":"Votre âge peut être un facteur de risque.Un facteur de risque est quelque chose qui augmente la possibilité d’avoir une maladie."}},
+        {"id_question":"Question 3", "question_content":"hsjhh diidhjk ?","question_type":"discrete","modalite":["Année"],"desc":{"var_name":"Age 3","var_illustration":"./images/blood_pressure.png","var_info":"Votre âge peut être un facteur de risque.Un facteur de risque est quelque chose qui augmente la possibilité d’avoir une maladie."}},
+        {"id_question":"Question 4", "question_content":"hjdkQ HJQhkjhh?","question_type":"discrete","modalite":["Année"],"desc":{"var_name":"Age 4","var_illustration":"./images/serum_creatinine.png","var_info":"Votre âge peut être un facteur de risque.Un facteur de risque est quelque chose qui augmente la possibilité d’avoir une maladie."}}
+        
+    ]
+}
